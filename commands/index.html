@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/commands.css">
+    <link rel="stylesheet" href="../css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <title>Amethyst | Commands</title>
+    <link rel="icon" href="../assets/favicon.ico">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <img src="../assets/Amethyst Transparent.svg" width="48" height="48">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="../assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../">Home</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./">Commands <span class="sr-only">(current)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/amethyst-dev/amethyst">GitHub</a>
+                </li>
+            </ul>
+            <div class="nav-item dropdown">
+            </div>
+            <button class="btn invite-btn btn-outline-accent my-2 my-sm-0"
+                style="font-size: 10px !important;font-family: poppins !important;">Invite</button>
+        </div>
+    </nav>
+    <div class="heading"></div>
+    <div class="features" id="features">
+        <div class="title">Commands</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Aliases</th>
+                    <th>Description</th>
+                    <th>Usage</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>h!help</td>
+                    <td>h!commands, h!commandlist</td>
+                    <td>Shows you a list of commands, and gives you further information about those commands</td>
+                    <td>h!help &lt;Command&gt;</td>
+                    <td>h!help</td>
+                </tr>
+                <tr>
+                    <td>h!info</td>
+                    <td>&nbsp;</td>
+                    <td>Shows info about HyDiscord</td>
+                    <td>h!info</td>
+                    <td>h!info</td>
+                </tr>
+                <tr>
+                    <td>h!members</td>
+                    <td>&nbsp;</td>
+                    <td>Shows you the current member count of the server you're in</td>
+                    <td>h!members</td>
+                    <td>h!members</td>
+                </tr>
+                <tr>
+                    <td>h!ping</td>
+                    <td>&nbsp;</td>
+                    <td>Sends a little "Pong!" along with the time it took from when you sent the command to the message
+                        being sent</td>
+                    <td>h!ping</td>
+                    <td>h!ping</td>
+                </tr>
+                <tr>
+                    <td>h!links</td>
+                    <td>h!invite</td>
+                    <td>Sends you links related to HyDiscord</td>
+                    <td>h!links</td>
+                    <td>h!links</td>
+                </tr>
+                <tr>
+                    <td>h!vote</td>
+                    <td>&nbsp;</td>
+                    <td>Sends you a link to vote for HyDiscord on Top.gg</td>
+                    <td>h!vote</td>
+                    <td>h!vote</td>
+                </tr>
+                <tr>
+                    <td>h!clear</td>
+                    <td>h!purge</td>
+                    <td>Deletes as many messages as you specify (Up to 100, and messages older than 14 days can't be
+                        deleted)</td>
+                    <td>h!clear [1-100]</td>
+                    <td>h!clear 10</td>
+                </tr>
+                <tr>
+                    <td>h!ban</td>
+                    <td>&nbsp;</td>
+                    <td>Bans a member you specify</td>
+                    <td>h!ban [@User]</td>
+                    <td>h!ban @cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!kick</td>
+                    <td>&nbsp;</td>
+                    <td>Kicks a member you specify</td>
+                    <td>h!kick [@User]</td>
+                    <td>h!kick @cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!suggest</td>
+                    <td>h!suggestion, h!suggestfeature</td>
+                    <td>Lets you suggest a feature to be added to HyDiscord</td>
+                    <td>h!suggest [Suggestion]</td>
+                    <td>h!suggest Add verification!</td>
+                </tr>
+                <tr>
+                    <td>h!coinflip</td>
+                    <td>h!cf</td>
+                    <td>Flips a coin</td>
+                    <td>h!coinflip</td>
+                    <td>h!coinflip</td>
+                </tr>
+                <tr>
+                    <td>h!rng</td>
+                    <td>h!random</td>
+                    <td>Picks a random number between two numbers you choose</td>
+                    <td>h!rng [Minimum] [Maximum]</td>
+                    <td>h!rng 1 10</td>
+                </tr>
+                <tr>
+                    <td>h!player</td>
+                    <td>h!p, h!hypixel, h!h</td>
+                    <td>Shows general Hypixel stats of a player</td>
+                    <td>h!player [IGN]</td>
+                    <td>h!player cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!guild</td>
+                    <td>h!g</td>
+                    <td>Shows stats of a guild</td>
+                    <td>h!guild [Guild]</td>
+                    <td>h!guild Rebel</td>
+                </tr>
+                <tr>
+                    <td>h!bedwars</td>
+                    <td>h!bw, h!b</td>
+                    <td>Shows BedWars stats of a player</td>
+                    <td>h!bedwars [IGN]</td>
+                    <td>h!bedwars cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!skywars</td>
+                    <td>h!sw, h!s</td>
+                    <td>Shows SkyWars stats of a player</td>
+                    <td>h!skywars [IGN]</td>
+                    <td>h!skywars cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!duels</td>
+                    <td>h!d</td>
+                    <td>Shows Duels stats of a player</td>
+                    <td>h!duels [Mode] [IGN]</td>
+                    <td>h!duels classic cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!link</td>
+                    <td>h!verify</td>
+                    <td>Allows you to link your Minecraft account to Discord</td>
+                    <td>h!link [IGN]</td>
+                    <td>h!link cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!unlink</td>
+                    <td>h!unverify</td>
+                    <td>Allows you to unlink your Minecraft account from your Discord</td>
+                    <td>h!unlink</td>
+                    <td>h!unlink</td>
+                </tr>
+                <tr>
+                    <td>h!uhc</td>
+                    <td>&nbsp;</td>
+                    <td>Shows UHC stats of a player</td>
+                    <td>h!uhc [IGN]</td>
+                    <td>h!uhc cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!speeduhc</td>
+                    <td>h!suhc</td>
+                    <td>Shows SpeedUHC stats of a player</td>
+                    <td>h!speeduhc [IGN]</td>
+                    <td>h!speeduhc cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!blitzsurvivalgames</td>
+                    <td>h!bsg, h!blitz, h!survivalgames, h!sg</td>
+                    <td>Shows Blitz Survival Games stats of a player</td>
+                    <td>h!blitzsurvivalgames [IGN]</td>
+                    <td>h!blitzsurvivalgames cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!buildbattle</td>
+                    <td>h!bb, h!build</td>
+                    <td>Shows Build Battle stats of a player</td>
+                    <td>h!buildbattle [IGN]</td>
+                    <td>h!buildbattle cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!copsandcrims</td>
+                    <td>h!c&amp;c, h!cac, h!cvc, h!cops, h!crims</td>
+                    <td>Shows Cops and Crims stats of a player</td>
+                    <td>h!copsandcrims [IGN]</td>
+                    <td>h!copsandcrims cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!crazywalls</td>
+                    <td>h!cw</td>
+                    <td>Shows Crazy Walls stats of a player</td>
+                    <td>h!crazywalls [IGN]</td>
+                    <td>h!crazywalls cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!megawalls</td>
+                    <td>h!mw</td>
+                    <td>Shows Mega Walls stats of a player</td>
+                    <td>h!megawalls [IGN]</td>
+                    <td>h!megawalls cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!murdermystery</td>
+                    <td>h!mm, h!murder, h!mystery</td>
+                    <td>Shows Murder Mystery stats of a player</td>
+                    <td>h!murdermystery [IGN]</td>
+                    <td>h!murdermystery cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!smashheroes</td>
+                    <td>h!sh, h!smash</td>
+                    <td>Shows Smash Heroes stats of a player</td>
+                    <td>h!smashheroes [IGN]</td>
+                    <td>h!smashheroes cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!tntgames</td>
+                    <td>h!tnt</td>
+                    <td>Shows all TNT Games stats of a player</td>
+                    <td>h!tntgames [IGN]</td>
+                    <td>h!tntgames cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!vampirez</td>
+                    <td>h!vz, h!vampire, h!vampires, h!vampz</td>
+                    <td>Shows VampireZ stats of a player</td>
+                    <td>h!vampirez [IGN]</td>
+                    <td>h!vampirez cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!watchdog</td>
+                    <td>h!wdr</td>
+                    <td>Shows general Watchdog stats</td>
+                    <td>h!watchdog</td>
+                    <td>h!watchdog</td>
+                </tr>
+                <tr>
+                    <td>h!socials</td>
+                    <td>&nbsp;</td>
+                    <td>Shows a player's social medias</td>
+                    <td>h!socials [IGN]</td>
+                    <td>h!socials cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!namehistory</td>
+                    <td>h!nh, h!names</td>
+                    <td>Shows name history of a player</td>
+                    <td>h!namehistory [IGN]</td>
+                    <td>h!namehistory cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!uuid</td>
+                    <td>&nbsp;</td>
+                    <td>Shows player's UUID</td>
+                    <td>h!uuid [IGN]</td>
+                    <td>h!uuid cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!skin</td>
+                    <td>&nbsp;</td>
+                    <td>Shows player's skin and lets you apply it</td>
+                    <td>h!skin [IGN]</td>
+                    <td>h!skin cxntered</td>
+                </tr>
+                <tr>
+                    <td>h!server</td>
+                    <td>h!ip</td>
+                    <td>Shows information about server</td>
+                    <td>h!server [IP]</td>
+                    <td>h!server mc.hypixel.net</td>
+                </tr>
+            </tbody>
+        </table>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+    <div class="page_end">
+        <div class="start">
+            <div class="card">
+                <div class="card-body gs-card">
+                    <div class="title">Ready to use Amethyst?</div>
+                    <br />
+                    <a class="btn btn-primary btn-lg" href="#start_link" role="button">Add to Server</a>
+                </div><br />
+            </div>
+        </div>
+        <div class="footer">
+            <div class="bot-footer">
+                <img src="../assets/BotLogoWord.svg" width="150"><br />
+                Copyright © cxntered - 2021
+            </div><br />
+            <div class="nouridio">website designed by <a href="https://github.com/Nouridio"> nouridio</a></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/now-ui-kit.min.js"></script>
+</body>
+
+</html>
