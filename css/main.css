@@ -233,3 +233,7 @@ body {
   text-align: center !important;
   color: #a2a8bd !important;
 }
+
+.tos-link:link, .tos-link:visited, .tos-link:hover, .tos-link:active {
+  color: #7289da;
+}
