@@ -34,7 +34,7 @@
                     <a class="nav-link" href="https://github.com/amethyst-dev/">GitHub</a>
                 </li>
             </ul>
-            <button class="btn invite-btn btn-outline-accent my-2 my-sm-0"
+            <button id="invite" class="btn invite-btn btn-outline-accent my-2 my-sm-0"
                 style="font-size: 10px !important;font-family: poppins !important;">Invite</button>
         </div>
     </nav>
@@ -42,8 +42,11 @@
         <h1 class="display-5 title">Amethyst</h1>
         <p class="subtitle">Amethyst is a bot focused on the Hypixel network, allowing you to track <br /> players'
             stats on different Hypixel gamemodes and do much, much more!</p>
-        <a class="btn btn-primary btn-lg" href="#start_link" target="_blank" role="button">Add to Server</a>
-        <a class="btn btn-secondary btn-lg" href="#server_link" target="_blank" role="button">Support Server</a>
+        <a class="btn btn-primary btn-lg"
+            href="https://discord.com/oauth2/authorize?client_id=771667974343360552&permissions=402917376&scope=applications.commands%20bot"
+            target="_blank" role="button">Add to Server</a>
+        <a class="btn btn-secondary btn-lg" href="https://discord.gg/ekxZPZAKUV" target="_blank" role="button">Support
+            Server</a>
         <br /><br /><br /><br /><br /><br />
     </div>
     <div class="features" id="features">
@@ -110,7 +113,9 @@
                 <div class="card-body gs-card">
                     <div class="title">Ready to use Amethyst?</div>
                     <br />
-                    <a class="btn btn-primary btn-lg" href="#start_link" role="button">Add to Server</a>
+                    <a class="btn btn-primary btn-lg"
+                        href="https://discord.com/oauth2/authorize?client_id=771667974343360552&permissions=402917376&scope=applications.commands%20bot"
+                        role="button">Add to Server</a>
                 </div><br />
             </div>
         </div>
@@ -133,6 +138,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="js/now-ui-kit.min.js"></script>
+    <script type="text/javascript">
+        document.getElementById("invite").onclick = function () {
+            location.href = "https://discord.com/oauth2/authorize?client_id=771667974343360552&permissions=402917376&scope=applications.commands%20bot";
+        };
+    </script>
 </body>
 
 </html>

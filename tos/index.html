@@ -36,7 +36,7 @@
             </ul>
             <div class="nav-item dropdown">
             </div>
-            <button class="btn invite-btn btn-outline-accent my-2 my-sm-0"
+            <button id="invite" class="btn invite-btn btn-outline-accent my-2 my-sm-0"
                 style="font-size: 10px !important;font-family: poppins !important;">Invite</button>
         </div>
     </nav>
@@ -110,7 +110,9 @@
                 <div class="card-body gs-card">
                     <div class="title">Ready to use Amethyst?</div>
                     <br />
-                    <a class="btn btn-primary btn-lg" href="#start_link" role="button">Add to Server</a>
+                    <a class="btn btn-primary btn-lg"
+                        href="https://discord.com/oauth2/authorize?client_id=771667974343360552&permissions=402917376&scope=applications.commands%20bot"
+                        role="button">Add to Server</a>
                 </div><br />
             </div>
         </div>
@@ -133,6 +135,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="js/now-ui-kit.min.js"></script>
+    <script type="text/javascript">
+        document.getElementById("invite").onclick = function () {
+            location.href = "https://discord.com/oauth2/authorize?client_id=771667974343360552&permissions=402917376&scope=applications.commands%20bot";
+        };
+    </script>
 </body>
 
 </html>
