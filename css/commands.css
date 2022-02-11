@@ -55,8 +55,7 @@ td, th {
 	}
 
     td:nth-of-type(1):before { content: "Command"; }
-    td:nth-of-type(2):before { content: "Aliases"; }
-    td:nth-of-type(3):before { content: "Descriptions"; }
-    td:nth-of-type(4):before { content: "Usage"; }
-    td:nth-of-type(5):before { content: "Example"; }
+    td:nth-of-type(2):before { content: "Description"; }
+    td:nth-of-type(3):before { content: "Usage"; }
+    td:nth-of-type(4):before { content: "Example"; }
 }
