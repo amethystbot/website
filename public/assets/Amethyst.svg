@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="70px" viewBox="0 0 76 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Particle / Amethyst</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="26.8766977%" y1="50%" x2="77.6951568%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FDD0FF" offset="0%"></stop>
+            <stop stop-color="#C2BFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="0%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#BA56FB" offset="0%"></stop>
+            <stop stop-color="#8800FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="0%" y2="93.7504866%" id="linearGradient-3">
+            <stop stop-color="#D86DFF" offset="0%"></stop>
+            <stop stop-color="#BA00FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="82.2252241%" y1="15.4419122%" x2="14.7720636%" y2="78.2711935%" id="linearGradient-4">
+            <stop stop-color="#EDF7FF" offset="0%"></stop>
+            <stop stop-color="#F4CFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Section-/-Home-Hero-/-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-142.000000, -138.000000)">
+        <g id="Particle-/-Amethyst" transform="translate(155.000000, 151.000000)">
+            <polygon id="Path-2" fill-opacity="0" fill="#FF0097" points="25 43.3125 49.1666667 10.0524774 40.8333333 1.94709371 8.61111111 1.94709371 0.833333333 10.3319734"></polygon>
+            <rect id="Rectangle-1" fill="url(#linearGradient-1)" x="8.80074127" y="1.94709371" width="32.3340616" height="8.38090102"></rect>
+            <polygon id="Path-1" fill="#E1BFFF" points="49.0982583 10.3338993 40.9730639 10.3338991 41.1072748 1.98812758"></polygon>
+            <polygon id="Path-3" fill="url(#linearGradient-2)" points="25.0197213 43.5864627 41.5322672 10.2499735 25.1800048 10.2499735"></polygon>
+            <polygon id="Path-4" fill="url(#linearGradient-3)" transform="translate(17.045927, 27.005988) scale(-1, 1) translate(-17.045927, -27.005988) " points="9.08349642 43.7079075 25.2872912 10.2499735 8.85130367 10.2499735"></polygon>
+            <polygon id="Path-5" fill="#814EC6" points="41.483098 10.2178004 49.1491887 10.2178004 25.0404092 43.585557"></polygon>
+            <polygon id="Path-6" fill="#D447FF" points="8.75352566 10.1824246 0.756123936 10.1824246 24.9324593 43.5902304"></polygon>
+            <polygon id="Path-7" fill="#E397FF" points="8.80378118 10.2442301 25.2525479 10.2442301 17.0281648 6.31197903"></polygon>
+            <polygon id="Path-8" fill="#C17BFF" points="25.2008131 10.2442301 41.4669304 10.2442301 33.3338717 6.33917573"></polygon>
+            <polygon id="Path-9" fill="#A28DFF" points="41.4593149 10.2107366 49.1941828 10.2107366 44.1138363 5.15543272"></polygon>
+            <polygon id="Path-10" fill="#E29CF7" transform="translate(4.758984, 7.646106) scale(-1, 1) translate(-4.758984, -7.646106) " points="0.705850946 10.2107367 8.77660575 10.2107366 3.69002437 5.05692726"></polygon>
+            <polygon id="Path-11" fill="url(#linearGradient-4)" points="8.82372352 10.250329 17.0257202 6.30191899 12.1600663 1.97364576 5.81409941 5.06906133"></polygon>
+            <polygon id="Path-12" fill="#F0DFFF" transform="translate(38.709748, 6.137544) scale(-1, 1) translate(-38.709748, -6.137544) " points="35.9843353 10.250329 44.0761184 6.35067349 39.3206781 1.97364576 33.3024375 5.12543669"></polygon>
+            <polygon id="Path-13" fill="#E7E5FF" points="17.0173818 6.31176823 25.2087224 1.96296606 12.1427971 1.96296606"></polygon>
+            <polygon id="Path-14" fill="#E9D0FF" transform="translate(31.596255, 4.126128) scale(-1, 1) translate(-31.596255, -4.126128) " points="29.8432616 6.33502652 37.9985852 1.96296606 25.0764217 1.96296606"></polygon>
+            <polygon id="Path-15" fill="#FFC5FC" points="5.827339 5.04134275 12.1660317 1.95654658 8.8175429 1.936653"></polygon>
+            <polygon id="Path-16" fill="#D4CEFF" points="38.0555556 1.96875 44.1666667 5.34375 41.1111111 1.96875"></polygon>
+        </g>
+    </g>
+</svg>

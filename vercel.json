@@ -1,0 +1,30 @@
+{
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/invite",
+            "destination": "https://discord.com/oauth2/authorize?client_id=771667974343360552&permissions=264192&scope=bot%20applications.commands",
+            "permanent": true
+        },
+        {
+            "source": "/discord",
+            "destination": "https://discord.gg/ekxZPZAKUV",
+            "permanent": true
+        },
+        {
+            "source": "/vote",
+            "destination": "https://top.gg/bot/771667974343360552/vote",
+            "permanent": true
+        },
+        {
+            "source": "/forums",
+            "destination": "https://hypixel.net/threads/verified-discord-bot-amethyst.4378360/",
+            "permanent": true
+        }
+    ]
+}
