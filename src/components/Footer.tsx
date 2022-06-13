@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 import GitHubIcon from "../icons/GitHub";
-import TwitterIcon from "../icons/Twitter";
 
 function Footer() {
 	return (
@@ -16,11 +15,8 @@ function Footer() {
 				<p className="mt-4 text-sm text-gray-500 dark:text-gray-400 sm:ml-auto sm:mr-4 sm:pr-4 sm:border-r sm:border-gray-200 dark:sm:border-gray-600 sm:mt-0 text-center sm:text-right"><Link to="/terms" style={{ textDecoration: "underline" }}><b>Terms of Service</b></Link> <br /> <Link to="/privacy" style={{ textDecoration: "underline" }}><b>Privacy Policy</b></Link></p>
 
 				<span className="inline-flex justify-center mt-4 space-x-2 sm:mt-0 sm:justify-start">
-					<a href="https://twitter.com/cxntered">
-						<TwitterIcon />
-					</a>
 
-					<a href="https://github.com/cxntered">
+					<a href="https://github.com/addamethyst">
 						<GitHubIcon />
 					</a>
 				</span>

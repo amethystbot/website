@@ -6,7 +6,6 @@ function Navbar() {
 
 	const navigation = [
 		{ name: "Support Server", link: "https://discord.gg/ekxZPZAKUV" },
-		{ name: "GitHub", link: "https://github.com/amethyst-dev" },
 		{ name: "Top.gg", link: "https://top.gg/bot/771667974343360552" },
 	];
 

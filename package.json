@@ -1,7 +1,7 @@
 {
 	"name": "amethyst-website",
 	"private": true,
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"packageManager": "yarn@3.2.0",
 	"scripts": {
 		"build": "tsc && vite build && yarn run serve -s dist -l tcp://127.0.0.1:3002",
